@@ -1,0 +1,94 @@
+body {
+    background: rgb(204,204,204);
+}
+.page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+    width: 21cm;
+    height: 47.7cm;
+}
+
+.a4 {
+    height: 29.7cm;
+}
+.title {
+    align-content: start;
+    /*background: honeydew;*/
+    display: flex;
+    justify-content: space-between;
+    width: 21cm;
+    height: 3.3cm;
+}
+
+.right-title {
+    margin-top: 0.3cm;
+    margin-bottom: 0.1cm;
+    margin-right: 0.5cm;
+}
+.left-title {
+    margin-bottom: 0.1cm;
+    margin-left: 0.5cm;
+}
+
+.content {
+    width: 21cm;
+    height: 26cm;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-content {
+    width: 16cm;
+    height: 26cm;
+    padding-left: 0.4cm;
+    padding-top: 0.3cm;
+}
+.right-content {
+    position: relative;
+    width: 5cm;
+    padding: 0.1cm;
+    height: 26cm;
+    border-left-color: gray;
+    border: gray dashed;
+}
+h3, h4 {
+    margin-bottom: 0cm;
+    margin-top: 0.25cm;
+}
+
+.experience {
+    display: flex;
+    flex-direction: row;
+}
+
+.experience-heading {
+    margin-left: 0.2cm;
+    margin-top: 0.2cm;
+    margin-bottom: 0cm;
+}
+
+.experience-left {
+    /*background: antiquewhite;*/
+    width: 2cm;
+    margin-top: 0.2cm;
+}
+
+.experience-right {
+    width: 14cm;
+    margin-left: 0.2cm;
+    /*background: cadetblue;*/
+}
+
+.inline {
+    display: inline;
+}
+.accomplishment-title {
+    padding-left: 0.4cm;
+}
+.accomplishment {
+    margin-left: 0.0cm;
+    margin-top: 0.2cm;
+}
