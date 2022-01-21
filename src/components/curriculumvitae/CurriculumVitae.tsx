@@ -1,13 +1,13 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import {Profile} from "../../model/Profile";
 import './CurriculumVitae.css';
-import {Heading} from "../heading/Heading";
 
 export function CurriculumVitae(props: {profile: Profile}) {
+    const inputRef = useRef(null);
     return (
         <>
-            <Heading title={props.profile.name}/>
-            <div className="page">
+            {/*<Heading title={props.profile.name}/>*/}
+            <div className="page" ref={inputRef} id="resume">
                 <div className="title">
                     <span className="left-title">
                     <h1 >{props.profile.name}</h1>
