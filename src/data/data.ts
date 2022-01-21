@@ -119,7 +119,7 @@ export const DATA: Profile = {
   ],
   certification: [
     {
-      name: 'PFMEA moderator'
+      name: 'PFMEA moderator APQP'
     },
     {
       name: 'Internal auditor ISO 9001:2015 & ISO 19011:2011'
